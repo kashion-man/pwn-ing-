@@ -1,0 +1,15 @@
+.rel.plt:   objdump -s -j .rel.plt ./test
+.dynsym:    objdump -s -j .dynsym ./test
+.dynstr:    objdump -s -j .dynstr ./test
+
+
+
+link_map:   0x804a004
+reloc_index: 8
+
+
+.dynamic: 0x08049f14
+.rel.plt:  
+.dynsym:    
+.dynstr:   
+n = 
